@@ -50,8 +50,6 @@ window.addEventListener('DOMContentLoaded', () => {
       clearTimeout(hideTimeout);
       hideMole(event.target);
 
-      event.target.classList.add('wgs__mole-head--hidden');
-
       event.target.classList.add('wgs__mole-head--whacked');
     });
   }
